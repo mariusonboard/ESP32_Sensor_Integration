@@ -26,13 +26,13 @@ const char* mqtt_pass   = "";   // password
 // =====================================================
 
 const char* topic_status =
-  "farm/sensor/wasserstand2";
+  "farm/sensor/wasserstand";
 
 const char* topic_avail =
-  "farm/sensor/verfuegbarkeit2";
+  "farm/sensor/verfuegbarkeit";
 
 const char* topic_config =
-  "homeassistant/binary_sensor/farm_wasser2/config";
+  "homeassistant/binary_sensor/farm_wasser/config";
 
 // =====================================================
 // SENSOR
