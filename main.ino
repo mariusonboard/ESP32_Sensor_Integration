@@ -148,25 +148,19 @@ void sendTelegramMessage(String text) {
 void sendeHomeAssistantDiscovery() {
   Serial.println("[MQTT] Sende Home-Assistant-Discovery für Sensor 2...");
 
-  String payload =
-    "{"
-      "\"name\":\"C Farm Wassertank 2\","
-      "\"state_topic\":\"farm/sensor/wasserstand2\","
-      "\"availability_topic\":\"farm/sensor/verfuegbarkeit2\","
-      "\"payload_on\":\"Fluessigkeit erkannt\","
-      "\"payload_off\":\"Keine Fluessigkeit vorhanden\","
-      "\"availability\":\"online\","
-      "\"not_available\":\"offline\","
-      "\"unique_id\":\"farm_wasser_sensor_002\","
-      "\"device_class\":\"moisture\","
-      "\"icon\":\"mdi:water-percent\","
-      "\"device\":{"
-        "\"identifiers\":[\"esp32_farm_controller_2\"],"
-        "\"name\":\"Grow-Farm Controller 2\","
-        "\"model\":\"ESP32 DevKit\","
-        "\"manufacturer\":\"Espressif\""
-      "}"
-    "}";
+  String payload = "{"
+    "\"name\": \"C Farm Wassertank\","
+    "\"state_topic\": \"farm/sensor/wasserstand\","
+    "\"availability_topic\": \"farm/sensor/verfuegbarkeit\","
+    "\"unique_id\": \"farm_wasser_text_sensor_001\","
+    "\"icon\": \"mdi:water-percent\","
+    "\"device\": {"
+      "\"identifiers\": [\"esp32_farm_controller\"],"
+      "\"name\": \"Grow-Farm Controller\","
+      "\"model\": \"ESP32 DevKit\","
+      "\"manufacturer\": \"Espressif\""
+    "}"
+  "}";
 
   bool erfolgreich = mqttClient.publish(
     topic_config,
