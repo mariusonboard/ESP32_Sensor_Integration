@@ -2,7 +2,7 @@
 
 Aktuell für ein (erweiterbar) kapazitiven Sensor geschrieben.
 
-Wenn das Modul via WLAN verwendet wird kann es via ZigBee2MQTT im HomeAssistant integriert werden sowie im Telegram Messenger über den Modulzustand benachrichtigen.
+Wenn das Modul mit Sensor verwendet wird kann das Setup via ZigBee2MQTT im HomeAssistant integriert werden sowie im Telegram Messenger über den Modulzustand benachrichtigen.
 Das Skript erfordert hierfür die Eingabe MQTT Server Login Daten, sowie Telegram Chat und WiFi Login. => main.ino Zeile 9 - 22
 
 Bauteile
