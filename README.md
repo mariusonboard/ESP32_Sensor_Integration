@@ -1,5 +1,7 @@
 # Füllstandssensor-ESP32
 
-Aktuell für ein kapazitiven Sensor geschrieben.
+Aktuell für ein (erweiterbar) kapazitiven Sensor geschrieben.
 
-Das Skript erfordert eingabe MQTT Server Logindaten, sowie Telegram Chad und 
+Das Skript erfordert die Eingabe MQTT Server Login Daten, sowie Telegram Chat und WiFi Login. => main.ino Zeile 
+
+
