@@ -1,4 +1,4 @@
-# Füllstandssensor-ESP32
+# Füllstandssensor ESP32
 
 Aktuell für ein (erweiterbar) kapazitiven Sensor geschrieben.
 
