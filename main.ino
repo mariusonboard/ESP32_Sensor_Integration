@@ -16,10 +16,10 @@ const char* chatId = "";
 // =====================================================
 // MQTT EINSTELLUNGEN 
 // =====================================================
-const char* mqtt_server = ""; 
+const char* mqtt_server = "";  // IP address mqtt server
 const int mqtt_port     = 1883; // Port MQTT
-const char* mqtt_user   = "; // Der Name aus dem Docker-Befehl
-const char* mqtt_pass   = "";   // Das Passwort aus dem Docker-Befehl
+const char* mqtt_user   = "; //  username 
+const char* mqtt_pass   = "";   // password
 
 // =====================================================
 // Topics
