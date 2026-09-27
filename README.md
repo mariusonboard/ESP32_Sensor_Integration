@@ -2,7 +2,7 @@
 
 Aktuell für ein (erweiterbar) kapazitiven Sensor geschrieben.
 
-Wenn das Modul via WLAN verwendet wird kann es über die ZigBee Bridge im HomeAssistant integriert werden, sowie die Benachrichtung des Modulzustands via Telegram.
+Wenn das Modul via WLAN verwendet wird kann es über die ZigBee Bridge im HomeAssistant integriert werden, sowie über Telegram über den Modulzustand benachrichtigen.
 Das Skript erfordert hierfür die Eingabe MQTT Server Login Daten, sowie Telegram Chat und WiFi Login. => main.ino Zeile 9 - 22
 
 Bauteile
