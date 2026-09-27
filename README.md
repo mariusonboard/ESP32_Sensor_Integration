@@ -12,4 +12,4 @@ Bauteile
 Zum Löten
 - Vin = 5V Sensor Spannungsversorgung
 - GND = GND Sensor Spannungsversorgung
-- GPIO 4 = Sensor Signal
+- GPIO 4 = Sensor Signalleitung
