@@ -4,7 +4,7 @@
 #include <PubSubClient.h>
 
 // =====================================================
-// NETZWERK & ALARM EINSTELLUNGEN
+// NETZWERK EINSTELLUNGEN
 // =====================================================
 const char* ssid = "";
 const char* password = ";
@@ -14,7 +14,7 @@ const char* botToken = "";
 const char* chatId = "";
 
 // =====================================================
-// MQTT EINSTELLUNGEN (NEU)
+// MQTT EINSTELLUNGEN 
 // =====================================================
 const char* mqtt_server = ""; 
 const int mqtt_port     = 1883; // Port MQTT
@@ -22,7 +22,7 @@ const char* mqtt_user   = "; // Der Name aus dem Docker-Befehl
 const char* mqtt_pass   = "";   // Das Passwort aus dem Docker-Befehl
 
 // =====================================================
-// EINDEUTIGE THEMEN FÜR DEN ZWEITEN ESP32
+// Topics
 // =====================================================
 
 const char* topic_status =
@@ -38,7 +38,7 @@ const char* topic_config =
 // SENSOR
 // =====================================================
 
-const int SENSOR_PIN = 4;
+const int SENSOR_PIN = 4; // GPIO 4
 
 // Bei INPUT_PULLUP:
 // LOW  = Sensor aktiv
